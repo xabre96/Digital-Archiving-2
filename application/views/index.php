@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test</title>
+	<meta charset="utf-8">
+	<title>Document Archiving System</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/angular-material/angular-material.min.js'; ?>">
 </head>
 <body>
 	<h1>It works!</h1>
