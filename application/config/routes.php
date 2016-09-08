@@ -49,10 +49,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples: my-controller/index -> my_controller/index
 |   my-controller/my-method -> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'Document_Controller/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
-
+$route['doc/(:num)'] = 'doc/id/$1'; // Example 4
 /*
 | -------------------------------------------------------------------------
 | Sample REST API Routes
